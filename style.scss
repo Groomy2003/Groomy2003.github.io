@@ -66,7 +66,7 @@ h4 {
 
 p {
     border-style: double;
-    border-width: thick;
+    border-width: double 10px;
 }
 
 a {
@@ -118,12 +118,12 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #0000FF;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: #0000FF;
   background: $lightGray;
 }
 ::selection {
@@ -165,9 +165,9 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
+  float: right;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
@@ -177,12 +177,12 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 515px;
   }
 }
 
 .site-info {
-  float: left;
+  float: right;
 
   @include mobile {
     float: none;
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #0000FF;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -203,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #0000FF;
   font-size: 16px;
 
   @include mobile {
