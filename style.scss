@@ -23,11 +23,11 @@ body {
   color: #FFA500;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+.center {
+    margin: auto;
+    width: 30%;
+    border: 3px solid #00FFFF;
+    padding: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
