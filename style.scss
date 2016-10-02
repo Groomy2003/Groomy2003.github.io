@@ -65,15 +65,15 @@ h4 {
 }
 
 p {
-    margin: 15px 0;
+    margin: 200px 0;
 }
 
 a {
-  color: $blue;
+  color: #00FFFF;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #00FFFF;
   }
 }
 
@@ -123,11 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: #00FFFF;
-  background: $lightGray;
+  background: #00FFFF;
 }
 ::selection {
   color: #00FFFF;
-  background: $lightGray;
+  background: #00FFFF;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #00FFFF;
 
   @include mobile {
     text-align: center;
@@ -196,14 +196,15 @@ img {
   cursor: pointer;
   font-family: "Comic Sans MS";
   font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 60px;
+  letter-spacing: 5px;
 }
 
 .site-description {
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   color: #0000FF;
-  font-size: 30px;
+  font-size: 50px;
+  font-family: "Comic Sans MS";
 
   @include mobile {
     margin: 3px 0;
