@@ -26,7 +26,7 @@ body {
 .center {
     margin: auto;
     width: 30%;
-    border: 3px solid #00FFFF;
+    border: 3px dotted #00FFFF;
     padding: 30px;
 }
 
@@ -244,7 +244,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 10px inset #00FFFF;
+  border-bottom: 10px dotted #00FFFF;
 }
 
 .posts > .post:last-child {
@@ -254,8 +254,8 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid #00FFFF;
+    margin: 4em .8em;
+    border-left: 2px dotted #00FFFF;
     padding: 0.1em 1em;
     color: #00FFFF;
     font-size: 22px;
@@ -274,8 +274,8 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 25px solid #ddd;
-  border-bottom: 25px solid #ddd;
+  border-top: 25px dotted #ddd;
+  border-bottom: 25px dotted #ddd;
   background-color: #00FFFF;
 }
 
